@@ -1,0 +1,88 @@
+/* Styles spécifiques à Carnofluxe */
+
+/* Couleurs */
+body {
+    background-color: #f4f7f9;
+    color: #333333;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #337ab7;
+    text-align: center;
+    font-size: 42px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  section.featured-products {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .product {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .product p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .product .price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .product button {
+    display: block;
+    margin-top: 10px;
+    background-color: #337ab7;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #f4f7f9;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+  }
